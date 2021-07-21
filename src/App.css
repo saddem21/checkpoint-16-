@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.class1 {
+  border: 15px outset green;
+  font-size: 35px;
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-bottom: 60px;
+  background-color: midnightblue;
+  font-family: Cinzel, serif;
+  font-family: "Space Mono", monospace;
+  color: gray;
+}
+.class2 {
+  border: 15px outset orange;
+  font-size: 35px;
+  margin-left: 160px;
+  margin-right:160px;
+  margin-bottom: 60px;
+  background-color: aqua;
+  font-family: Cinzel, serif;
+  font-family: "Space Mono", monospace;
+  color: blueviolet;
+}
+.class3 {
+  border: 15px outset slateblue;
+  font-size: 35px;
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-family: "Space Mono", monospace;
+  color: mediumseagreen;
+}
+.class4 {
+  border: 15px outset dodgerblue;
+  font-size: 35px;
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-bottom: 60px;
+  background-color: mediumseagreen;
+  font-family: "Space Mono", monospace;
+  color: brown;
+}
